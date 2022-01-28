@@ -9,17 +9,17 @@
     </a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="./examples/icons.html">
+    <a class="nav-link" href="{{url('/specialties')}}">
         <i class="ni ni-paper-diploma text-blue"></i> Especialidades
     </a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="./examples/maps.html">
+    <a class="nav-link" href="{{url('/doctors')}}">
         <i class="ni ni-badge text-orange"></i> Medicos
     </a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="./examples/profile.html">
+    <a class="nav-link" href="{{url('/patients')}}">
         <i class="ni ni-satisfied text-info"></i> Pacientes
     </a>
 </li>
