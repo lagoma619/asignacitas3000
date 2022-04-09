@@ -1,6 +1,7 @@
 @extends('layouts.panel')
 
 @section('content')
+
     <div class="row mt-5">
         <div class="col-xl-8 mb-5 mb-xl-0">
             <div class="card shadow">
@@ -38,11 +39,11 @@
                                 <th scope="row">
                                     {{$doctor->name}}
                                 </th>
-                                <td word-wrap:break-word>
+                                <td break-word>
                                     <p class="card-text">{{$doctor->email}}</p>
                                 </td>
 
-                                <td word-wrap:break-word>
+                                <td break-word>
                                     <p class="card-text">{{$doctor->dni}}</p>
                                 </td>
 
