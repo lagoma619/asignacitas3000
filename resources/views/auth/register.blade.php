@@ -27,6 +27,19 @@
                                 @enderror
                             </div>
                         </div>
+                        <div class="input-group input-group-alternative mb-3">
+                            <span class="input-group-text"><i class="ni ni-credit-card"></i></span>
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control @error('dni') is-invalid @enderror" name="dni"
+                                       value="{{ old('dni') }}" required autocomplete="dni" autofocus placeholder="DNI">
+
+                                @error('dni')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
 
                         <div class="input-group input-group-alternative mb-3">
                             <span class="input-group-text"><i class="ni ni-email-83"></i></span>

@@ -33,7 +33,7 @@
                         </div>
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="text" name="description" class="form-control" value="{{old('email')}}">
+                            <input type="text" name="email" class="form-control" value="{{old('email')}}">
                         </div>
                         <div class="form-group">
                             <label for="dni">DNI</label>
@@ -46,6 +46,10 @@
                         <div class="form-group">
                             <label for="phone">Teléfono</label>
                             <input type="text" name="phone" class="form-control" value="{{old('phone')}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña</label>
+                            <input type="text" name="password" class="form-control" value="{{Str::random(6)}}">
                         </div>
                         <button  class="btn btn-primary" type="submit">Guardar</button>
 
