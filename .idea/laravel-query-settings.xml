@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="LaravelQuerySettings">
-    <option name="ignoreSettings" value="true" />
+    <option name="filterDataSources" value="true" />
+    <option name="filteredDataSources">
+      <set>
+        <option value="4e2e9f7d-744b-45d6-99d2-1c276185618d&lt;-/lq/-&gt;aquitoy_myapp" />
+      </set>
+    </option>
   </component>
 </project>
