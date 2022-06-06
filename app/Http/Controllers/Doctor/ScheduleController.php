@@ -25,7 +25,7 @@ class ScheduleController extends Controller
     }
 
     public function store(Request $request){
-    //dd($request->all());
+    dd($request->all());
         //  dd($request->input('active'));
         //dd($request->input('morning_start'));
 
